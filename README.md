@@ -1,1 +1,64 @@
-# TradeShift-frontend
+# 💹 TradeShift - Trading Platform UI
+
+This is a portfolio project showcasing the frontend of a modern, responsive stock trading dashboard named TradeShift. It is built from the ground up using React and Vite, focusing on a clean, component-based architecture and a professional user interface.
+
+This project was developed to demonstrate skills in modern frontend technologies, state management with Context API, and UI/UX design principles.
+
+## 📸 Screenshots
+
+Dashboard :--<img width="1594" height="769" alt="Tading-web-dashboard" src="https://github.com/user-attachments/assets/5ed0aaa2-3b09-4bb9-a292-8ef1723a1652" />
+portfolio:-<img width="1581" height="722" alt="trading-portfolio" src="https://github.com/user-attachments/assets/4ea9caf0-a7b1-4756-86fd-f2a1816048d9" />
+
+**Markets** :-<img width="1580" height="783" alt="marcket status" src="https://github.com/user-attachments/assets/e13a6be1-58c7-46e1-99dc-4edacacd4ab2" />
+ **Trading** :-<img width="1594" height="769" alt="Tading-web-dashboard" src="https://github.com/user-attachments/assets/c949a6ed-361a-49a1-a31f-4e8a43ebbdd6" />
+**Login** :-<img width="1314" height="683" alt="login page" src="https://github.com/user-attachments/assets/b40a65cc-42ba-4ce4-8141-d9f72c16a132" />
+
+## ✨ Features
+
+* ✅ **Multi-Page Interface:** Fully routed application with pages for Dashboard, Portfolio, Markets, Trading, and Research.
+* ✅ **Component-Based Architecture:** Built with reusable React components.
+* ✅ **Authentication Flow:** Complete UI flow for Login, Sign Up, and protected routes.
+* ✅ **State Management:** Uses React's Context API to manage the user's login state globally.
+* ✅ **Clean & Modern UI:** A professional and clean interface designed for financial data.
+
+## 💻 Tech Stack
+
+* **Frontend:** React.js
+* **Build Tool:** Vite
+* **Routing:** React Router DOM
+* **Styling:** CSS Modules
+* **Icons:** React Icons
+
+## 🛠️ Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/sufiyan/tradeshift-frontend.git](https://github.com/sufiyan/tradeshift-frontend.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```sh
+    cd tradeshift-frontend
+    ```
+3.  **Install NPM packages:**
+    ```sh
+    npm install
+    ```
+4.  **Run the development server:**
+    ```sh
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173`.
+
+## 📬 Contact
+
+Sufyan - sufiyann904@gmail.com
+
+Project Link: [https://github.com/sufiyan/tradeshift-frontend](https://github.com/sufiyan/tradeshift-frontend)
