@@ -1,0 +1,110 @@
+/* src/pages/Login/LoginPage.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.loginBox {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.logo {
+    color: var(--color-green);
+    font-size: 36px;
+}
+
+.formContainer {
+    background-color: var(--color-bg-light);
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid var(--color-border);
+}
+
+.formContainer h2 {
+    font-size: 24px;
+}
+
+.subtitle {
+    color: var(--color-text-secondary);
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputGroup label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.inputGroup input {
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.signInButton {
+    background-color: var(--color-green);
+    color: var(--color-text);
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.signupText {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signupText a {
+    color: var(--color-green);
+    font-weight: 600;
+}
+
+.demoMode {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid var(--color-primary);
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: rgba(59, 130, 246, 0.1);
+}
+
+.demoMode span {
+    font-weight: 600;
+}

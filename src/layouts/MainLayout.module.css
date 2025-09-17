@@ -1,0 +1,11 @@
+/* src/layouts/MainLayout.module.css */
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    padding: 30px;
+}

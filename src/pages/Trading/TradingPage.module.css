@@ -1,0 +1,9 @@
+/* src/pages/Trading/TradingPage.module.css */
+
+.tradingGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* Left column is twice as wide as the right */
+    gap: 30px;
+    align-items: start;
+}

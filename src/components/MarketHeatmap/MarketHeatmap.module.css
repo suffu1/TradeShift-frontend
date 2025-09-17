@@ -1,0 +1,55 @@
+/* src/components/MarketHeatmap/MarketHeatmap.module.css */
+
+.card {
+    background-color: var(--color-bg-light);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--color-border);
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.stockCard {
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid;
+}
+
+.positive {
+    border-color: var(--color-green);
+    background-color: rgba(16, 185, 129, 0.1);
+}
+
+.negative {
+    border-color: var(--color-red);
+    background-color: rgba(239, 68, 68, 0.1);
+}
+
+.symbol {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.name {
+    font-size: 12px;
+    color: var(--color-text-secondary);
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: 600;
+}
+
+.change {
+    font-size: 14px;
+}

@@ -1,0 +1,23 @@
+/* src/pages/Dashboard/DashboardPage.module.css */
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.summaryGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+/* ADD THIS NEW STYLE */
+
+.listsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Creates 2 equal columns */
+    gap: 20px;
+}

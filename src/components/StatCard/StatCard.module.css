@@ -1,0 +1,30 @@
+/* src/components/StatCard/StatCard.module.css */
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-bg-light);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--color-border);
+    flex-grow: 1;
+    /* Allows cards to grow and fill space */
+}
+
+.title {
+    font-size: 16px;
+    color: var(--color-text-secondary);
+    margin-bottom: 8px;
+}
+
+.value {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.iconContainer {
+    font-size: 36px;
+    color: var(--color-primary);
+}

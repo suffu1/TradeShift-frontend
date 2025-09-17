@@ -1,0 +1,25 @@
+/* src/pages/Markets/MarketsPage.module.css */
+
+.markets {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.summaryGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.placeholder {
+    background-color: var(--color-bg-light);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-secondary);
+}

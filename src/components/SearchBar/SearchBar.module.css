@@ -1,0 +1,36 @@
+/* src/components/SearchBar/SearchBar.module.css */
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    /* Or whatever width you prefer */
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: var(--color-text-secondary);
+}
+
+.input {
+    width: 100%;
+    background-color: var(--color-bg-light);
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+    border-radius: 8px;
+    padding: 15px 15px 15px 45px;
+    /* Add padding on the left for the icon */
+    font-size: 16px;
+}
+
+.input::placeholder {
+    color: var(--color-text-secondary);
+}
+
+.input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}

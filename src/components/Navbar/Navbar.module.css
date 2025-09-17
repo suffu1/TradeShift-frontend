@@ -1,0 +1,84 @@
+/* src/components/Navbar/Navbar.module.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: var(--color-bg-light);
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-text);
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoIcon {
+    color: var(--color-green);
+    font-size: 24px;
+}
+
+.logoText {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navLinks {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* Base style for links */
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    transition: background-color 0.2s;
+}
+
+
+/* Style for when a link is hovered over */
+
+.link:hover {
+    background-color: var(--color-border);
+    color: var(--color-text);
+}
+
+
+/* Style for the currently active link */
+
+.activeLink {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--color-green);
+    color: white;
+}
+
+.userProfile {
+    text-align: right;
+}
+
+.userName {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.userEmail {
+    font-size: 12px;
+    color: var(--color-text-secondary);
+}
