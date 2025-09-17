@@ -9,7 +9,8 @@ This project was developed to demonstrate skills in modern frontend technologies
 Dashboard :--<img width="1594" height="769" alt="Tading-web-dashboard" src="https://github.com/user-attachments/assets/5ed0aaa2-3b09-4bb9-a292-8ef1723a1652" />
 portfolio:-<img width="1581" height="722" alt="trading-portfolio" src="https://github.com/user-attachments/assets/4ea9caf0-a7b1-4756-86fd-f2a1816048d9" />
 
-**Markets** :-<img width="1580" height="783" alt="marcket status" src="https://github.com/user-attachments/assets/e13a6be1-58c7-46e1-99dc-4edacacd4ab2" />
+**Markets** :-<img width="1580" height="783" alt="marcket status" src="https://github.com/user-attachments/assets/aba16bad-5169-4e8d-91ac-7506c2fb80b0" />
+
  **Trading** :-<img width="1594" height="769" alt="Tading-web-dashboard" src="https://github.com/user-attachments/assets/c949a6ed-361a-49a1-a31f-4e8a43ebbdd6" />
 **Login** :-<img width="1314" height="683" alt="login page" src="https://github.com/user-attachments/assets/b40a65cc-42ba-4ce4-8141-d9f72c16a132" />
 
