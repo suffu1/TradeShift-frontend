@@ -42,7 +42,7 @@ Make sure you have Node.js and npm installed on your machine.
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/sufiyan/tradeshift-frontend.git](https://github.com/sufiyan/tradeshift-frontend.git)
+    git clone [https://github.com/suffu1/tradeshift-frontend.git](https://github.com/suffu1/tradeshift-frontend.git)
     ```
 2.  **Navigate to the project directory:**
     ```sh
@@ -62,4 +62,4 @@ Make sure you have Node.js and npm installed on your machine.
 
 Sufyan - sufiyann904@gmail.com
 
-Project Link: [https://github.com/sufiyan/tradeshift-frontend](https://github.com/sufiyan/tradeshift-frontend)
+Project Link: [https://github.com/suffu1/tradeshift-frontend](https://github.com/suffu1/tradeshift-frontend)
